@@ -30,7 +30,7 @@ function Navbar({ userObj }) {
     if (userObj.displayName) {
       setLoggedIn(true);
     }
-  });
+  }, []);
 
   const onLogOutClick = () => {
     signOut(auth);
