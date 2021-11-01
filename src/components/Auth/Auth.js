@@ -32,7 +32,7 @@ const AuthForm = () => {
   const { loggedIn, setLoggedIn } = useContext(LoginContext);
   const { popUp, setPopUp } = useContext(PopUpContext);
 
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit } = useForm();
 
   const onSubmit = async (data) => {
     try {

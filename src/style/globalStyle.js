@@ -1,13 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import {
-  BLACK_LIGHT,
-  BROWN_LIGHT,
-  GRAY_LIGHT,
-  PHONE_BREAK,
-  WHITE_DARK,
-  YELLOW_LIGHT,
-  GRAY,
-} from "../constants";
+import { PHONE_BREAK, WHITE_DARK, YELLOW_LIGHT, GRAY } from "../constants";
 
 const GlobalStyle = createGlobalStyle`
  

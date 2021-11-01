@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { storage, db, auth } from "../../config/firebase-config";
+import { storage, db } from "../../config/firebase-config";
 import { addDoc, collection } from "firebase/firestore";
 import { ref, uploadString, getDownloadURL } from "firebase/storage";
 import { useForm } from "react-hook-form";

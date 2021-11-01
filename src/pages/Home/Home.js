@@ -4,14 +4,13 @@ import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import UploadForm from "../../components/Form/UploadForm";
 import { Row, Cards } from "../../style/globalStyle";
-import { LoginContext, PopUpContext } from "../../hooks/context";
+import { PopUpContext } from "../../hooks/context";
 import Auth from "../../components/Auth/Auth";
 import { FormWrapper } from "./Home.style";
 
 const Home = ({ userObj }) => {
   const [images, setImages] = useState([]);
   const [show, setShow] = useState(true);
-  const { loggedIn, setLoggedIn } = useContext(LoginContext);
   const { popUp, setPopUp } = useContext(PopUpContext);
 
   useEffect(() => {
