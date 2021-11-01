@@ -1,8 +1,9 @@
 # Image Gallery CRUD
 
-In the project directory, you can run:
 
-### `npm start`
+
+### `npm start`   
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e82f3ecf-5cbb-48ee-990d-19045b14d506/deploy-status)](https://app.netlify.com/sites/friendly-jones-b959e7/deploys)
 
 You dont have to config anything. I left my Firebase API key so you can have easier time building this app.
 
